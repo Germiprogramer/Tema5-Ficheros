@@ -32,6 +32,7 @@ def escribirFichero(argumento):
     else:
         print("El valor del fichero es: {}".format(leerFichero()))
 
+#prueba del codigo
 crearFichero()
 escribirFichero("inc")
 escribirFichero("inc")

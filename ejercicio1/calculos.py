@@ -1,8 +1,6 @@
 from operaciones import *
 
-a, b, c, d = (10, 5, 0, "Hola")
-
- 
+a, b, c, d = (10, 5, 0, "Hola") 
 
 print( "{} + {} = {}".format(a, b, suma(a, b) ) )
 
@@ -11,3 +9,5 @@ print( "{} - {} = {}".format(b, d, resta(b, d) ) )
 print( "{} * {} = {}".format(b, b, multiplicacion(b, b) ) )
 
 print( "{} / {} = {}".format(a, c, division(a, c) ) )
+
+#el codigo de arriba funciona, tal y como se pedía
