@@ -15,4 +15,6 @@ dt = datetime.now()
 
 reloj = Reloj(dt.hour, dt.minute, dt.second)
 
+#printeamos el reloj
+
 print(reloj)
